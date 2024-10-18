@@ -2,7 +2,7 @@
 
 一个使用 Cloudflare Pages 创建的 URL 缩短器
 
-*Demo* : [(https://urlnet.top/)/](https://urlnet.top/)
+*Demo* : [(https://urlnet.top/)](https://urlnet.top/)
 
 
 
