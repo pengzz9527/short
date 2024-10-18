@@ -50,11 +50,10 @@ CREATE TABLE IF NOT EXISTS logs (
 #### 短链生成
 
 ```bash
-# POST /create
-curl -X POST -H "Content-Type: application/json" -d '{"url":"https://198005.xyz"}' [https://d.131213.xyz/create](https://urlnet.top/create)
+curl -X POST -H "Content-Type: application/json" -d '{"url":"https://198005.xyz"}' https://urlnet.top/create
 
 # 指定slug
-curl -X POST -H "Content-Type: application/json" -d '{"url":"[https://131213.xyz](https://198005.xyz)","slug":"scxs"}' [https://d.131213.xyz/create](https://urlnet.top/create)
+curl -X POST -H "Content-Type: application/json" -d '{"url":"https://198005.xyz","slug":"cabin"}' https://urlnet.top/create
 
 ```
 
