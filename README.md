@@ -64,7 +64,7 @@ curl -X POST -H "Content-Type: application/json" -d '{"url":"https://198005.xyz"
 ```json
 {
   "slug": "<slug>",
-  "link": "http://d.131213.xyz/<slug>"
+  "link": "https://urlnet.top/<slug>"
 }
 ```
 
