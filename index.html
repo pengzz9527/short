@@ -215,7 +215,9 @@
         </div>
       </details>
       <button :class="{ loading }" :disabled="loading || isValidated()" @click="submit($refs, $nextTick)">生成</button>
+      <div class="cf-turnstile" data-sitekey="0x4AAAAAAAx1_5lisBxSaCVl"></div>
     </main>
+    <script src="https://challenges.cloudflare.com/turnstile/v0/api.js" async defer></script>
     <footer>
      service
     </footer>
